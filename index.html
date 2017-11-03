@@ -1,158 +1,91 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Cytonn HTML</title>
-        <script>
-function moving(items) {
-    items.preventDefault();
-}
-
-function starts(items) {
-    items.dataTransfer.setData("DRAG THE LOGO", items.target.id);
-}
-
-function keeps(items) {
-    items.preventDefault();
-    var cytonn = items.dataTransfer.getData("DRAG THE LOGO");
-    items.target.appendChild(document.getElementById(cytonn));
-}
-</script>
-    
+        <title>CSS</title>
+        <link rel="icon" href="img/logo.png"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
     </head>
-    
-    <body style="background-color: #AF7020;padding:15px;">
-    <table>
-        <td>
-            <tr>
-        
-            <span style="padding:7px;color:#fff;background-color:green;box-shadow:3px 3px #000;">Basic HTML</span>
-            </tr>
-            <br/>
-            <br/>
-            <tr>
-            
-            </tr>
-        </td>
-        </table>
-        <table border="1" style="border-color: #fff;">
-            <th >
-            <tr>
-            <td style="background-color: red;padding:15px;">
-                BASIC HTML
-                </td>
-                <td style="background-color: red;padding:15px;">
-                FORM
-                </td>
-                <td style="background-color: red;padding:15px;">
-                GRAPHICS
-                </td>
-                <td style="background-color: red;padding:15px;">
-                HTML VIDEO
-                </td>
-                
-            </tr>
-                
-            </th>
-            <tr>
-                <td>
-                    <div style="padding:30px;">
-        <p>The Paragraph</p>
-        <h1>H1 Text</h1>
-        <h2>H2 Text</h2>
-    <h3>H3 Text</h3>
-        <h4>H4 Text</h4>
-        <h5>H5 Text</h5>
-        <h6>H6 Text</h6>
-                    </div>
-                </td>
-                     <td>
+    <body>
+        <div class="divi">
+        The below form and any code written on this page has been formated with Inline, Internal and External Stylesheets &amp; SASS to demonstrate the usage of CSS and SASS. MADE FROM SCRATCH!!
+        </div>
+        <div class="register">
+         <form>
+             <fieldset style="border-radius: 10px;">
+             <legend style="color:#ffffff;">Register</legend>
+                 <form>
+                     <table>
+                     <tr style="padding-bottom: 30px;">
+                         <td>
+                             <input id="forms" id="fot" style="width:230px;height:20px;" required type="text" placeholder="Firstname"/>
+                         </td>
+                          <td>
+                             <input id="forms" id="fots" style="width:230px;height:20px;" required type="text" placeholder="Lastname"/>
+                         </td> 
+                     </tr>
+                      <tr>
+                         <td>
+                             <input id="forms" id="fot" style="width:230px;height:20px;" required type="email" placeholder="Email"/>
+                         </td>
+                          <td>
+                             <input id="forms" id="fots" style="width:230px;height:20px;" required type="number" placeholder="Number"/>
+                         </td>
+                     </tr>
                          
-       <form style="padding:30px;">
-           <fieldset style="border-radius: 3px;"><legend style="color:#fff;">My Form</legend>
-           <input type="text" placeholder="Username" required x-moz-errormessage="Fill Username"/><br/><br/>
-           <input type="password" placeholder="Password" required="required"/><br/><br/>
-           <input type="number" required="required"/><br/><br/>
-           <input type="date" required="required"/><br/><br/>
-               <input type="submit" style="padding:6px;border-radius:3px;cursor:pointer;" value="Register &rarr;"/><br/><br/>
-           </fieldset>
-           
-           <br/><br/>
-                         Horizontal Rule
-                         <hr/>
+                      <tr>
+                         <td>
+                             <input id="forms" id="fot" style="width:230px;height:20px;" required type="date" placeholder="Month"/>
+                         </td>
+                          <td>
+                             <input id="forms" id="fots" style="width:230px;height:20px;" required type="url" placeholder="Website"/>
+                         </td>
+                     </tr>
                          
-                         </form>
+                      <tr>
+                         <td>
+                             <input id="forms" id="fot" style="width:230px;height:20px;" required type="password" placeholder="Password"/>
+                         </td>
+                          <td>
+                             <input id="forms" id="fots" style="color:#ffffff;border-radius:3px; width:230px;height:20px;border:1px solid #ffffff;padding:3px;" required type="file" placeholder="Firstname"/>
+                         </td>
+                     </tr>
                          
-                </td>
-                
-                 <td>
-                     <div style="padding:30px;">
-       <svg width="100" height="100">
-   <circle cx="50" cy="50" r="40" stroke="red" stroke-width="7" fill="blue" />
-</svg>
-<br/><br/><br/>
-                     <canvas width="300" height="150"
-style="border:3px dotted #000000;">
-</canvas>
-                     </div>
-
-                </td>
-                <td>
-                    <div style="padding:30px;">
-                    <video width="80%" height="50%" controls>
-<source src="img/video.mp4" type="video/mp4">
-</video>
-<br/>
-                        <br/>
-       
-                    </div>
-                
-                </td>
-               
-            </tr>
-       
+                      <tr>
+                         <td>
+                            
+                         </td>
+                          <td>
+                             <input id="submit" value="REGISTER &rarr;" style="cursor:pointer;float:right;padding:8px;border-radius:4px;color:#000000;border:2px solid red;" type="submit"/>
+                         </td>
+                     </tr>
+                     </table>
+                 </form>
+             </fieldset>
+         </form>
+        </div>
+        <div id="sove">
+        SASS Functions Example - Container dimensions generated via operations &amp; Functions.
+        </div>
+        <div style="width:70%;margin:0 auto;margin-top:50px;">
+            <table>
             <tr>
-             <td>
-                
-            <div style="padding:30px;">
-                <span style="background-color: red;padding:7px;color:#ffffff;">AUDIO</span>
-                 <br/><br/>
-       <audio controls>
-  <source src="img/westlife.webm" type="audio/webm">
-</audio>
-                 </div>
-                    
+                <td id="mgs">
+                    <img src="img/1.jpg" alt="Cytonn" title="Cytonn"/>
                 </td>
-                <td>
-                    <div style="padding: 30px;">
-                    <span style="background-color: red;padding:7px;color:#ffffff;">MULTIMEDIA</span>
-                 <br/><br/>
-                    <div style="padding:30px;">
-                <img height="50" width="70" src="img/logo.svg" alt="Cytonn" title="Cytonn"/>
-                        </div>
-                    </div>
+                <td id="mgs">
+                    <img src="img/2.jpg" alt="Cytonn" title="Cytonn"/>
                 </td>
-                <td>
-                    <div style="padding: 30px;">
-                        <span style="background-color: red;padding:7px;color:#ffffff;">PLUGIN</span>
-                 <br/><br/>
-                <object width="100%" height="60px" data="login.html"></object>
-                    </div>
+                <td id="mgs">
+                    <img src="img/3.jpg" alt="Cytonn" title="Cytonn"/>
                 </td>
-                <td>
-                    <div style="padding:30px;">
-                        
-                        <span style="background-color: red;padding:7px;color:#ffffff;">DRAG &amp; Drop</span>
-                 <br/><br/>
-                
-<img id="joe" src="img/logo.svg" draggable="true"
-ondragstart="starts(event)" width="336" height="69">
-                        <br/><br/>
-                        <div style="height:150px;border:2px solid #ffffff;" ondrop="keeps(event)" ondragover="moving(event)"></div>
-                    </div>
-                
+                <td id="mgs">
+                    <img src="img/4.jpg" alt="Cytonn" title="Cytonn"/>
+                </td>
+                <td id="mgs">
+                    <img src="img/5.jpg" alt="Cytonn" title="Cytonn"/>
                 </td>
             </tr>
-        </table>
-        
+            </table>
+        </div>
     </body>
     </html>

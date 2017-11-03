@@ -1,0 +1,84 @@
+.register:hover {
+  box-shadow: 8px 8px 8px blue; }
+
+table td {
+  padding-bottom: 20px; }
+
+#mgs img {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  height: 120px;
+  width: 170px; }
+#mgs img:hover {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  height: 120px;
+  width: 160px;
+  opacity: 0.4;
+  cursor: pointer; }
+
+.register:hover {
+  -webkit-background: #18AA8B;
+  -moz-background: #18AA8B;
+  -ms-background: #18AA8B;
+  background: #18AA8B; }
+
+.divi {
+  margin-top: 60px;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  background: green;
+  color: #ffffff;
+  box-shadow: 4px 4px #000000;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 25px; }
+
+.change, .divi:hover {
+  background: #5B199D; }
+
+.divi:hover {
+  border-color: #2EDAC5; }
+
+#sove {
+  width: 40%;
+  background: green;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff; }
+
+article[role="main"] {
+  width: 62.5%; }
+
+aside[role="complementary"] {
+  width: 31.25%; }
+
+body {
+  background: #0D799C;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: arial; }
+
+.register {
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  background: purple;
+  box-shadow: 8px 8px 8px #000000; }
+
+#fot {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px; }
+
+#fots {
+  float: right;
+  width: 300px !important; }
+
+/*# sourceMappingURL=style.css.map */
